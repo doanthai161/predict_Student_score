@@ -5,7 +5,7 @@ from ydata_profiling import ProfileReport
 from sklearn.model_selection import train_test_split 
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression 
 from sklearn.metrics import r2_score, mean_absolute_error
 
 data = pd.read_csv('dataset/StudentScore.xls', delimiter=',')
